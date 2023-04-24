@@ -44,6 +44,11 @@ header {
     padding-left: 50px;
 }
 
+body {
+  background-color: #e2dcd0;
+}
+
+
 .main {
   width: 100%;
   min-height: 100vh;
@@ -56,7 +61,7 @@ position: absolute;
 width: 285px;
 height: 205px;
 left: 200px;
-top: 200px;
+top: 250px;
 background: #ffcf53;
 /*
 background: url(src/honey.jpg) no-repeat;
@@ -66,7 +71,7 @@ background-attachment: fixed;
 */
 border: 2px solid #452A12;
 border-radius: 5px;
-transform: scale(1.5);
+transform: scale(1.7);
 }
 
 
@@ -76,7 +81,7 @@ transform: scale(1.5);
   width: 300px;
   height: 129px;
   left: 10em;
-  top: 180px;
+  top: 200px;
   margin-left: 15em;
   font-family: 'Playfair Display';
   font-style: italic;
@@ -100,14 +105,14 @@ top: 0px;
 
 
 /* Rectangle 2 */
-.rect2{
+.buy-now-btn{
 box-sizing: border-box;
 position: absolute;
 width: 90px;
 height: 40px;
 right: 100px;
-left: 700px;
-top: 400px;
+left: 750px;
+top: 425px;
 background: #FFCF53;
 border: 2px solid #452A12;
 border-radius: 10px;
@@ -118,17 +123,43 @@ font-size: 16px;
 line-height: 35px;
 text-align: center;
 color: #452A12;
+transition: 0.7s ease;
 transform: scale(1.2);
+}
 
+.buy-now-btn:hover{
+
+  transform: scale(1.4);
 }
 
 
+.learn-more-btn{
+  box-sizing: border-box;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  right: 100px;
+  left: 1000px;
+  top: 425px;
+  background: #ffff;
+  border: 2px solid #452A12;
+  border-radius: 10px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 35px;
+  text-align: center;
+  color: #452A12;
+  transition: 0.7s ease;
+  transform: scale(1.2);
+  }
 
 
-
-
-
-
+  .learn-more-btn:hover{
+    background: #FFCF53;
+    transform: scale(1.4);
+  }
 
 
 
