@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -39,11 +44,47 @@ header {
     padding-left: 50px;
 }
 
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;  
+}
+.rect {
+box-sizing: border-box;
+position: absolute;
+width: 285px;
+height: 205px;
+left: 200px;
+top: 200px;
+background: #ffcf53;
+/*
+background: url(src/honey.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+*/
+border: 2px solid #452A12;
+border-radius: 5px;
+transform: scale(1.5);
+}
 
 
 
+.text {
+  position: absolute;
+  width: 300px;
+  height: 129px;
+  left: 10em;
+  top: 180px;
+  margin-left: 15em;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  color: #452A12;
+  transform: scale(1.5);
 
-
-
-
-
+}
