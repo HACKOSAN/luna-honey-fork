@@ -163,8 +163,33 @@ transform: scale(1.2);
 
 
 
+/* Ellipse 1 */
+.ellipse{
 
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  left: 610px;
+  top: 485px;
+  background: #FFCF53;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 39px;
+  text-align: center;
+  color: #452A12;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  transition: 0.7s ease;
 
+}
 
-
+.ellipse:hover{
+  transform: scale(1.4);
+}
 
